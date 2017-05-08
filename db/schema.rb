@@ -10,7 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170507231004) do
+ActiveRecord::Schema.define(version: 20170508024249) do
+
+  create_table "asignatura_alumnos", force: :cascade do |t|
+    t.integer  "notas_anteriores"
+    t.integer  "anio"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
 
   create_table "asignaturas", force: :cascade do |t|
     t.string   "nombre_asign"
