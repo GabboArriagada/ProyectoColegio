@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  año: 1
+  notas: 
+
+two:
+  año: 1
+  notas: 
