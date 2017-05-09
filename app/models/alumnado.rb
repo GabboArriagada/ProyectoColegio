@@ -1,0 +1,2 @@
+class Alumnado < ApplicationRecord
+end
